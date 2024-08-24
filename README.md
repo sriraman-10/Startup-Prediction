@@ -9,15 +9,12 @@ Name: Startup.csv
 Description: Contains features such as industry, founding year, funding amount, and growth metrics for a set of startups.
 Data Preprocessing:
 
-Cleaning: Handle missing values and outliers as needed.
-Feature Engineering: Create additional features like "age_in_years" to enhance model performance.
-Scaling: Consider scaling numerical features to ensure they have comparable ranges.
-Models:
+
 
 Linear Regression: Baseline model for comparison.
-Ridge Regression: Used to address overfitting by adding a regularization term.
-Lasso Regression: Used for feature selection and regularization.
-Elastic Net: Combines Ridge and Lasso for a balance of regularization and feature selection.
+Ridge Regression: Used to address overfitting by adding a regularization term. L2
+Lasso Regression: Used for feature selection and regularization. L1
+Elastic Net: Combines Ridge and Lasso for a balance of regularization and feature selection. L1 + L2
 Evaluation Metrics:
 
 Mean Squared Error (MSE): Measures the average squared difference between predicted and actual values.
